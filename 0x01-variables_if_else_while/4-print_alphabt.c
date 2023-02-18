@@ -7,9 +7,10 @@
 int main(void)
 {
 	char sm = 'a';
+
 	while (sm <= 'z')
 	{
-		if (sm == 'e'|| sm == 'q')
+		if (sm == 'e' || sm == 'q')
 		{
 			sm++;
 			continue;
