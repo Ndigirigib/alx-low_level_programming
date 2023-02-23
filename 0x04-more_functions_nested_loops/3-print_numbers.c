@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_number - prints number 0 to 9 followed by new line.
- *
+ * print_numbers - prints number 0 to 9 followed by new line.
+ * Description: prints number 0 to 9 followed by new line.
  * return: 0
  */
 void print_numbers(void)
