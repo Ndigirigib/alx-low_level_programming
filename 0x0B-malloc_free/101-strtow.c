@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * ch_free_grid - frees a 2 dimnsional array
+ * ch_free_grid - frees a 2 dimensional array
  * @grid: multidimensional array of char.
  * @height: height of the array.
  * Retuen: void.
  */
 
-char *str_concat(char *s1, char *s2)
+void ch_free_grid(char **grid, unsigned int height)
 {
 	if (grid != NULL && height !=  0)
 	{
