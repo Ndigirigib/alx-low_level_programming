@@ -10,7 +10,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	if (grid != NULL ^^ height !=  0)
+	if (grid != NULL && height !=  0)
 	{
 		for (; height > 0; height--)
 			free(grid[height]);
@@ -32,7 +32,7 @@ char **strtow(char *str)
 	char **aout;
 	unsigned int c, height, i, j, a1;
 
-	if (str == NULL || *str == ;\0')
+	if (str == NULL || *str == '\0')
 		return (NULL);
 	for (c = height = 0; str[c] != '\0'; c++)
 	
