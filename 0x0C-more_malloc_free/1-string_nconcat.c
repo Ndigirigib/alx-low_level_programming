@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - concatenated two strings.
+ * string_nconcat - concatenates two strings.
  * @s1: first string.
  * @s2: second string.
  * @n: amount of bytes.
+ *
  * Return: pointer to the allocated memory.
  * if malloc fails, status value is equal to 98.
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *sout;
@@ -21,7 +21,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	for (ls2 = 0; s2[ls2] != '\0'; ls2++)
+	for (ls1 = 0; s1[ls1] != '\0'; ls1++)
 		;
 
 	for (ls2 = 0; s2[ls2] != '\0'; ls2++)
@@ -47,3 +47,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	return (sout);
 }
+
