@@ -7,10 +7,10 @@
 * @size: size of bytes.
 * Return: pointer to the allocated memory.
 * if nmemb or size is 0, returns NULL.
-* if malloc fails, returns NULL. 
+* if malloc fails, returns NULL.
 */
 
-int *array_range(int min, int max)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *p;
 	unsigned int i;
